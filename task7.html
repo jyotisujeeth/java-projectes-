@@ -1,0 +1,69 @@
+alert(123)
+var itemList = document.querySelector('#items');
+// parentnode
+// console.log('itemlist.parentNode');
+// itemList.parentNode.style.backgroundColor = "#f4f4f4";
+// console.log(itemlist.parentNode.parentNode.parentNode);
+
+// parentnode element
+// console.log(itemlist.parentElement);
+// itemlist.parentElement.style.backgroundColor = "blue";
+// console.log(itemlist.parentElement.parentElement.parentElement);
+
+// childnode
+// console.log(itemlist.childNode);
+
+// console.log(itemlist.children);
+// console.log(itemlist.children[1]);  
+// itemlist.children[1].style.backgroundColor = "yellow";
+
+// firstchild
+// console.log(itemlist.firstchild);
+// firstelementchild
+// console.log(itemlist.firstElementChild);
+// itemlist.firstElementChild.textcontent = "hello world 1";
+
+
+// lastchild
+//console.log(itemlist.lastchild);
+// firstelementchild
+// console.log(itemlist.lastElementChild);
+// itemlist.lastElementChild.textcontent = "hello world 4";
+
+// nextsibling
+
+// console.log(itemlist.nextSibling);
+// nexttelementSibling
+
+// console.log(itemlist.nextSibling);
+
+// PREVIousSiblings
+// firstchild
+// console.log(itemlist.previousSibling); 
+// firstelementchild
+
+// console.log(itemlist.previousElementSibling);
+// itemlist.previousElementsibling.color = "green";
+
+// createlement'
+// create a new deactivated
+    
+var newDiv = document.createElement("div");
+// add id
+newDiv.id ="hello1";
+// add attr
+newDiv.setAttribute("title", "Hello World div");
+
+// create text node
+var newDivText = document.createTextNode("hello world");
+
+// add text to div
+newDiv.appendChild(newDivText);
+
+var container = document.querySelector("header .container");
+var div = document.querySelector("header h1");
+
+console.log(newDiv);
+newDiv.style.fontSize ='30px';
+console.insertBefore(newDiv, h1);
+
